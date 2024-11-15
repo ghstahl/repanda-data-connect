@@ -133,4 +133,5 @@ auth:
 		_, err = newJetStreamReaderFromConfig(conf, service.MockResources())
 		require.Error(t, err)
 	})
+
 }
